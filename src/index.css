@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container-form{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end;
+    gap: 20px;
+}
+.title{
+    width: 85%;
+}
+.title h1{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-size: 59px;
+    font-weight: 200;
+    color: #b24020;
+}
+
+.container-box{
+    width:  85%;
+    text-decoration: none;
+}
+.box{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap:  15px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #404040;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.input-field,
+.input-field-two{
+    width: 100%;
+    height: 55px;
+    border: solid 1px #404040;
+    border-radius: 5px;
+    padding: 15px;
+    
+}
+.input-field input,
+.input-field-two input{
+    font-size: 20px;
+    border: 0;
+}
+.input-field input{
+    width: 98%;
+    height: 98%;
+}
+.input-field input:focus,
+.input-field-two input{
+    outline: none;
+}
+
+.input-field-two input{
+    width: 80%;
+    height:98% ;
+}
+
+.input-field-two button{
+    width: 20%;
+    background: none;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    border:0 ;
+    color: #0a7dd2;
+    cursor: pointer;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #c5b9b9;
+}
+
+.button span a{
+    text-decoration: none;
+    color: #2a6cc6;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
+
+.button button{
+    width: 100%;
+    height: 45px;
+    margin-top: 30px;
+    border: 0;
+    outline: none;
+    border-radius:30px;
+    background-color: #0a66c2;
+    color: white;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.line{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: -15px;
+    left: 45%;
+    color: #c5b9b9;
+}
+
+.text p{
+    color: #c5b9b9;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+.text p a{
+    text-decoration: none;
+    color: #0a7dd2;
+}
+
+.container-img{
+    width:  45%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.container-img img{
+    width:  100%;
+    margin-right: 10px;
+    justify-content: flex-end;
+}
+
+
